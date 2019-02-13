@@ -199,3 +199,14 @@ You can tell org-mode which programming languages to support by adding something
    (gnuplot t)
    ))
 #+END_SRC
+
+* exporting
+One strength of org-mode is the ability to export to multiple formats. Probably the most useful to begin with are web pages and pdf (via latex) but more are available; to quote the org manual:
+
+#+BEGIN_QUOTE
+ASCII export produces a readable and simple version of an Org file for printing and sharing notes. HTML export allows you to easily publish notes on the web, or to build full-fledged websites. LaTeX export lets you use Org mode and its structured editing functions to create arbitrarily complex LaTeX files for any kind of document. OpenDocument Text (ODT) export allows seamless collaboration across organizational boundaries. Markdown export lets you seamlessly collaborate with other developers. Finally, iCal export can extract entries with deadlines or appointments to produce a file in the iCalendar format.
+#+END_QUOTE
+
+To export your org file to a web page, type C-c C-e to start the exporter and then press h to select html and o to select open. A new web page should now open in your browser.
+
+Similarly, typing l and o in the exporter will conver the org file to LaTeX and then compile it to produce a pdf and display that. Try both of these.
