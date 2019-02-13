@@ -1,0 +1,201 @@
+* org-mode structure
+Text in org is structured by headings, denoted by lines starting with one or more * so we are currently in a section!
+
+** a subheading
+Starts with an extra * and so on
+
+** navigation
+ Headings can be expanded or collapsed by moving to the (sub)heading and pressing TAB. S-TAB cycles all headings. You can jump to next and previous headings with C-c C-n and C-c C-p respectively.
+
+ You can move headings up and down to reorder them with the arrow keys, using M-up or M-down. You can change the level of headings with M-left and M-right (and use M-S-left to also change the levels of and subheadings).
+
+** lists
+*** bullet lists
+ - bullet lists can be created like this (start a line with one or more space and a -
+ - pressing M-RET gives you a new bullet
+ - we might also like nested bullets
+   - like this one (I pressed M-RET TAB to indent it)
+   - and another (M-RET now indents to the new level)
+ - the nice thing is that for long lines of text, emacs wraps them so that they line up with the bullet
+ - you can also reorder list items and change indentation using M-up or M-down just like with section headings
+ - you can change bullet style using S-left and S-right
+*** numbered lists
+1) numbered lists are also possible
+2) M-RET gives me a new number
+*** checklists [0/5]
+ - [ ] we can even have check lists
+ - [ ] M-S-RET gives a new item with a check box
+ - [ ] C-c C-c checks/unchecks a box
+ - [ ] you can have sub-items
+   + [ ] like this
+   + [ ] that can be checked off individually
+ - [ ] and you can track the number of items by adding [0/0] to the end of a line above a checklist, this updates when you check items off
+*** difinition lists
+- definition lists :: these are useful sometimes
+- item 2 :: M-RET again gives another item, and long lines wrap in a tidy way underneath the definition
+
+* tables
+Hopefully you can see straight away that the simple structure provided by org-mode gives a nice way to keep an electronic note book.
+
+Often it is nice to include tables in our notes. Org handles this by using | to separate columns, and a line of --- (inserted with C-c -) to add horizontal lines.
+
+Exercise: start typing in this table below; type the first line in verbatim
+1) when you get to the "s" of comments, press TAB to go to the next line
+2) go up to the previous line and us C-c - to add the row of dashes
+3) next enter a few lines of data, using TAB to go through the cells - you should notice the columns changing width as needed
+
+| ID | x |  y | comments       |
+|----+---+----+----------------|
+| A  | 2 |  4 | blah           |
+| B  | 3 |  9 | blah           |
+| C  | 4 | 16 | blah blah blah |
+| D  | 5 | 25 | blah           |
+
+Now, you can move rows and columns around using M-arrow and insert or delete rows and columns using M-S-arrow. Try this out now.
+
+** creating and exporting tables
+You can create an empty table using C-c | to run the command org-table-create-or-convert-from-region, which will prompt for table dimensions if no region is selected.
+
+The same command can easily convert some text to a table; select the following text and use C-c | to run the command org-table-create-or-convert-from-region again to convert the text to a table
+
+ID  x   y
+A   2   4
+B   3   9
+C   4  16
+D   5  25
+
+You can also save tables to their own files by putting the cursor in the table and using M-x org-table-export. You'll be asked for a file name and a format. For the format, type orgtbl-to and press tab to see the available options (e.g. orgtbl-to-csv will convert to csv in the output file).
+
+** formulae
+You can use formulae to do arithmetic on tables, and use them like a spreadsheet. This is something I keep meaning to use more often, but don't generally find I need it. One useful command is C-c + which runs org-table-sum to sum the numbers in the current column.
+
+For more on this, see e.g. [[http://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][this introduction]].Notice that we just added a link in our org-mode file - this is a teaser for what we will cover next!
+* links and images
+Org mode supports links to files, URLs, and to points in the org file. In this example let's use an image from my website.
+
+To add a link to a file use C-u C-c C-l and type the name of a file. Use tab-completion to select the image we just copied and you will then be asked for a description - you can press enter to leave this blank. This will create a link that looks like this:
+
+[[file:img/misc/superman_cluster.gif]]
+
+If you do this in your org file, you wont see the [[]] above, instead you'll see the text as a clickable link.
+
+Since the file we have linked to is an image, we can tell emacs to the image in the document using C-c C-x C-v and use the same command to turn the image off again.
+
+You can also click the link with the mouse, or use C-c C-o to follow it, which might open your web browser, an image viewer, or open a file in emacs depending on the target of the link.
+
+The structure of a link in org mode looks like this:
+
+#+BEGIN_EXAMPLE
+[[link address][description]]
+#+END_EXAMPLE
+
+(I've enclosed the link in an example block which prevents org-mode from trying to interpret it as a real link, for the purpose of showing its structure - we'll come back to blocks like this later.)
+
+The link address is the URL or file name, and the description is the text that is displayed, so we can replace our superman link with something tidier like [[file:img/misc/superman_cluster.gif][this]].
+
+Links to web pages are easy - just put the http address in as the link address. Use C-c C-l as a quick way to add such a link (remember we used C-u C-c C-l for adding a link to a file).
+
+Links to other parts of the org file are added easily like [[links and images][this link]]. Because the address part of the link matches a headline in this document, then org-mode points the link to that part of file. Clicking it will move the cursor there.
+
+Finally, we can add a caption and a name to our image like this
+
+#+CAPTION: Superman and a galaxy cluster
+#+NAME: fig.super
+[[file:img/misc/superman_cluster.gif]]
+
+which means we can refer to our image later with a link like this one [[fig.super]]
+* formatting text
+** simple formatting
+You can apply simple formatting to your text by enclosing words in special characters. This include:
+ - /italicised text/
+ - *bold text*
+ - _underlines_
+ - =literal text=
+ - ~code~ (generally appears the same as literal text)
+
+** formatted blocks of text
+For longer pieces of text you can enclose the text in blocks marking it as a specific sort of text. I commonly use these ones:
+
+#+BEGIN_EXAMPLE
+This is an example block into which you can type text that you don't want org to mess with like a [[link]]. This will typically be rendered in a monospace font when exported.
+#+END_EXAMPLE
+
+#+BEGIN_QUOTE
+This block encloses text that you want to appear as a quotation.
+#+END_QUOTE
+
+#+BEGIN_CENTER
+This text will be centered when it is exported.
+#+END_CENTER
+
+You can save time typing out the block wrapper by using shortcuts. Go to the start of a new line and type <e and press TAB and it will expand to an example block. The same works for <q for quote and <c for center.
+
+** LaTeX
+Org-mode does a good job of understanding snippets of LaTeX (a [[https://www.latex-project.org/][powerful typesetting language]] used in scientific and other technical documents). For example, it will correctly export simple superscripts x^2 or subscripts x_0 or symbols like \alpha, \beta, \gamma.
+
+Org also understands more complex LaTeX like this:
+
+\begin{eqnarray}
+x^2 + \left(\frac{y}{z}\right)^4 = 0
+\end{eqnarray}
+
+but for longer bits of LaTeX it is better to use a LaTeX block. You start one with <l and TAB
+
+#+BEGIN_EXPORT latex
+LaTeX code goes here
+#+END_EXPORT
+
+** source code blocks
+It is also handy to include source code in your notes - on a new line type <s and TAB to create a source block. You can tell org what type of code is contained - in this case we'll put in some simple shell code, so we'll but "sh" at the top of the block.
+
+#+BEGIN_SRC sh
+echo "Hello $USER! Today is `date`"
+exit
+#+END_SRC
+
+You can get org to syntax highlight the text in the block by adding the following to your emacs config file:
+
+#+BEGIN_SRC elisp
+;;syntax highlight code blocks
+(setq org-src-fontify-natively t)
+#+END_SRC
+
+What is more, when the cursor is inside a SRC block, you can use C-c ' to create a new temporary buffer in the major mode of the programming language you have specified. Type some code in, and then type C-c ' again to come back to this buffer.
+
+*** executing source code blocks
+Org-mode can execute your source code blocks and add the output to your file. This part of org-mode is called babel. I'll write more about this later, but it is too cool not to mention here.
+
+For example, take the simple code block we had above:
+
+#+BEGIN_SRC sh
+echo "Hello $USER! Today is `date`"
+exit
+#+END_SRC
+
+#+RESULTS:
+: Hello kalkki! Today is Wed 13 Feb 2019 12:35:24 PM EST
+
+Put the cursor inside the block and hit C-c C-c to execute it. You will be asked to confirm and then you should see the output appear like this:
+
+#+BEGIN_EXAMPLE
+#+RESULTS:
+Hello kalkki! Today is Wed 13 Feb 2019 12:03::42 PM EST
+#+END_EXAMPLE
+
+You can do much more with this, like reading input data from a table in the same file, creating images that appear in the file, extracting (tangling) all the code snippets into one or more files to be executed separately, and much more. [[http://orgmode.org/worg/org-contrib/babel/intro.html][Here are some nice examples]]
+
+You can tell org-mode which programming languages to support by adding something like the following to your emacs config file:
+
+#+BEGIN_SRC elisp
+;; Some initial languages we want org-babel to support
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '(
+   (sh . t)
+   (python . t)
+   (R . t)
+   (ditaa . t)
+   (perl . t)
+   (gnuplot t)
+   ))
+#+END_SRC

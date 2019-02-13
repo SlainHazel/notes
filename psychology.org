@@ -1,0 +1,25 @@
+* memory
+** anterograde amnesia
+Following trauma to the brain (concussion, surgery, or drug induced neural damage) we find we cannot make new memories. New information is just not encoding. We call this anterograde amnesia.
+
+>---memory intact---|trauma|---no new memories--->
+
+** infantile amnesia
+ - Most people cannot remember anything before the age of three.
+ - This is because the areas of the brain responsible for making and storing memories have not fully formed. (hippocampus and association areas)
+
+** memory effects
+ - Next-in-line Effect :: When you are so anxious about being next that you cannot remember what the person just before you in line says, but you can recall what other people around you say.
+ - Spacing Effect :: We retain information better when we rehearse over time.
+ - Serial Position Effect :: When your recall is better for first and last items on a list, but poor for middle items.
+   - Primacy Effect :: We are more likely to recall the first few items on a list.
+   - Recency Effect :: We are more likely to recall the last few items on a list.
+
+** state-dependent memories
+ - State dependent memories are retrieved when we are in the same mental or physiological state to when the memory was originally encoded.
+   - Ex: Feelings of happiness can trigger memories of other times when we were happy.
+   - Drugs alter a person's state of consciousness and can thus result in state-dependent memories as well.
+
+** context-dependent memories
+ - Context dependent memories are retrieved when we return to a situation that is similar to the one in which we originally encoded and stored the memory.
+   - Ex: you return to Hermitage 10 years from now for your reunion and begin to remember all of the experiences you had while going there.
