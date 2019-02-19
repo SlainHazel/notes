@@ -1,3 +1,8 @@
+* Period 1: 1491-1670
+* Period 2: 1607-1754
+* Period 3: 1754-1800
+* Period 4: 1800-1848
+* Period 5: 1844-1877
 ** rise of republican party
 - Convinced Northerners that the "slave power" posed immediate threat to liberty
   - Slavery creates strict system of hierarchy
@@ -90,7 +95,6 @@ Crittenden Proposal
  - Lincoln not a plan; plan dies
 
 ** and the war came
-
 *** Fort Sumter
  - As states seceded, they began seizing U.S. government property (post offices, court-houses, and forts)
  - By March 4, only 2 forts remained in federal hands
@@ -98,3 +102,49 @@ Crittenden Proposal
    - Surrounded by confederates; cut off supplies
  - Lincoln first day: received word that Sumter running low on supplies
    - Could not wait for dust to se
+
+** [[Reconstruction, 1865-1877][reconstruction]]
+
+* Chapter Summaries
+** Reconstruction, 1865-1877                                          :ch15:
+*** the meaning of freedom
+**** Blacks and the Meaning of Freedom
+**** Families in Freedom
+**** Church and School
+**** Political Freedom
+**** Land, Labor, and Freedom
+**** Masters without Slaves
+**** The Free Labor Vision
+**** The Freedmen's Bureau
+**** The Failure of Land Reform
+**** Toward a New South
+**** The White Farmer
+**** The Urban South
+**** Aftermaths of Slavery
+*** the making of radical reconstruction
+**** Andrew Johnson
+**** The Failure of Presidential Reconstruction
+**** The Black Codes
+**** The Origins of Civil Rights
+**** The Fourteenth Amendment
+**** The Reconstruction Act
+**** Impeachment and the Election of Grant
+**** The Fifteenth Amendment
+**** The "Great Constitutional Revolution"
+**** Boundaries of Freedom
+**** The Rights of Women
+**** Feminists and Radicals
+*** radical reconstruction in the south
+**** "The Tocsin of Freedom"
+**** The Black Officeholder
+**** Carpetbaggers and Scalawags
+**** Southern Republicans in Power
+**** The Quest for Prosperity
+*** the overthrow of reconstruction
+**** Reconstruction's Opponents
+**** "A Reign of Terror"
+**** The Liberal Republicans
+**** The North's Retreat
+**** The Triumph of the Redeemers
+**** The Disputed Election and Bargain of 1877
+**** The End of Reconstruction
