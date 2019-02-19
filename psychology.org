@@ -23,3 +23,49 @@ Following trauma to the brain (concussion, surgery, or drug induced neural damag
 ** context-dependent memories
  - Context dependent memories are retrieved when we return to a situation that is similar to the one in which we originally encoded and stored the memory.
    - Ex: you return to Hermitage 10 years from now for your reunion and begin to remember all of the experiences you had while going there.
+** inteference: the before and after of forgetting
+ - Proactive Interference :: When older memories interfere with the learning of new material.
+   - Ex: I'm having a hard time learning my new phone number because I keep remembering my old number.
+ - Retroactive Interference :: When new memories prohibit the recall of older material.
+   - Ex: Having learned your new phone number, you can't recall your old number.
+
+** motivated forgetting
+ - Motivated Forgetting :: People unknowingly revise their memories.
+ - Repression :: A defense mechanism that banishes anxiety-arousing thoughts, feelings, and...
+   - Repressed thoughts go deep into your unconscious mind, where they may surface as a dream or the expression of a behavior you might not be able to explain, or maybe a "slip of the tongue."
+
+** forgetting: why do we forget?
+ - Encoding Failure :: stuff didn't quite stick, too little rehearsal
+ - Decay :: time erodes memories, remember Ebbinghaus' curve
+ - Retrieval Failure :: just can't seem to call it up, such as "tip-of-the-tongue" phenomenon
+ - Interference :: other memories getting in the way - retroactive & proactive
+ - Disease & Brain Trauma :: dementia - such as Alzheimer's, concussions
+ - Chemical Effect :: drugs can interere...
+
+** false memories
+ - Repressed or Constructed?
+   - Some adults actually do forget childhood episodes of abuse.
+ - False Memory Syndrome :: a condition in which a person's identity and relationships center around a false but strongly believed memory of a traumatic experience, which is sometimes induced by well-meaning therapists.
+
+*** constucted memories
+Elizabeth Loftus' research shows that memory is reconstructive, and that false memories can be triggered by suggestion.
+[[file:img/psych/loftus.png][Elizabeth Loftus]]
+
+*** source amnesia
+Atributing to the wrong source an even we have experienced, heard about, read about, or imagined. It is at the heart of many false memories.
+
+ - Ex: President Ronald Reagan used to tell stories of what happened to him when he was in the Army during WWII, but when fact-checked by reporters, it was found that some of his stories were actually memories from scenes of WWII movies he acted in.
+
+** improving memory
+ 1. Study repeatedly to boost long-term recall.
+ 2. Spend more time rehearsing or actively thinking about the material.
+ 3. Make material personally meaningful.
+ 4. Use mnemonic devices:
+    - Associate with peg words - something already stored
+    - Make up a story
+    - Chunk - acronyms
+ 5. Activate retrieval cues - mentally recreate the situation and mood
+ 6. Recall events while they are fresh - before you encounter misinformation
+ 7. Minimize interference:
+    - Test your own knowledge
+    - Rehearse and then determine what you do not yet know
