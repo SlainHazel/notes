@@ -69,3 +69,37 @@ Atributing to the wrong source an even we have experienced, heard about, read ab
  7. Minimize interference:
     - Test your own knowledge
     - Rehearse and then determine what you do not yet know
+
+* cognition
+Another term for thinking, knowing, and remembering
+
+ - Metacognition: Awareness and understanding one's thinking and cognitive processes
+
+** concepts
+ - A mental grouping of similar objects, events, ideas, or people
+ - Superordinate - Animals
+ - Basic - Dogs
+ - Subordinate - Foxhound
+
+*** schema
+A schema is a set of ideas about something. Our stereotypes come from our schemas.
+
+*** prototypes
+A mental image or best (typical) example of a category.
+
+If a new object is similar to our prototype, we are better able to recognize it.
+
+** creativity
+ - Almost impossible to define
+ - Little correlation between creativity and intelligence
+ - Convergent Thinking versus Divergent Thinking
+
+ - Convergent Thinking :: Involves narrowing your thoughts to try and find one correct answer
+ - Divergent Thinking :: Involves finding multiple answers to a problem.
+
+ - Components: Expertise, imaginative thinking skills, venturesome personality, intrinsic motivation, creative environment
+
+** algorithms
+ - A rule that guarantees the right solution to a problem
+ - Usually by using a formula
+ - They work but are sometimes impractical
