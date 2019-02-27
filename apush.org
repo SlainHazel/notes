@@ -1,3 +1,6 @@
+#+TITLE: AP US History
+#+SETUPFILE: theme-readtheorg.setup
+
 * Period 1: 1491-1670
 * Period 2: 1607-1754
 * Period 3: 1754-1800
@@ -34,8 +37,6 @@
   - Scott still a slave despite living in free territory (but given immediate Emancipation!)
 - Effectively declared Republican platform as unconstitutional
 - President Buchanan declared that slavery, henceforth existed in all the territories, "by virtue of the Constitution"
-
-[[https://tinyurl.com/jkozbyp][Link To Case]
 
 ** Rise of Lincoln
  - Stephen Douglas runs for Senate re-election
@@ -103,7 +104,41 @@ Crittenden Proposal
  - Lincoln first day: received word that Sumter running low on supplies
    - Could not wait for dust to se
 
-** [[Reconstruction, 1865-1877][reconstruction]]
+** [[https://docs.google.com/presentation/d/1GuXBsEQ6NjLxXuWwiW9Mm6aEhK6Yvv6XlA8ahE_CfeU/present?token=AC4w5VjOOdpd6G13KWFcykfOcmti3wWuAw%3A1551112625175&includes_info_params=1&eisi=CMCCoOio1-ACFVXVDQodzL4E0Q#slide=id.g4feddd871a_0_119][reconstruction]]
+*** seven phases of reconstruction
+ 1. Confederate states in the Union; run by "white power"
+ 2. Secession: states in Confederacy; again "white power" structure
+ 3. Martial law; occupied by Union
+ 4. "Reconstructed" und Johnson; white power stucture put back summer 1865, lasts till spring 1867
+ 5. Again, military rule; Johnson's regimes (except in TN) dibanded <- Reconstruction Act 1867
+ 6. Rebublican civilians in charge; not white power structure
+    1. States back in Union
+    2. "Bayonet Rule": Republican northerners running things, but military always there
+    3. gov mostly voted on by freed blacks
+ 7. Redemption: structure reverted essentially to step 1
+
+*** goals for reconstruction
+ - Republicans ->
+   - land ownership, education, suffrage for blacks
+   - goodbye Johnson
+ - Union back together
+
+*** land reform
+ - discussion of land given to freedmen
+   - 40 acres + 1 mule
+ - slave-owning society essentially still controls freedmen
+   - not easily able to own land
+   - land = freedom, therefore true freedom not easily obtained
+   - more white sharecroppers
+
+**** why land reform didn't happen
+ - Northern whites didn't care
+ - Only cared to give them the right to vote, as it would increase republican power
+ - private property valued immensly by Americans
+ - don't want to set "communist-like" precedent
+
+*** republican rule
+ - Republicans controlled confederate states during reconstruction (in office)
 
 * Chapter Summaries
 ** Reconstruction, 1865-1877                                          :ch15:

@@ -1,0 +1,28 @@
+#+TITLE: Algrebra II
+#+SETUPFILE: theme-readtheorg.setup
+
+* solving radical equations
+** simple square root equations
+ 1. Isolate the radical
+ 2. Square both sides
+ 3. Solve for variable
+ 4. Check for extraneous solutions
+
+*** Examples
+**** Ex:
+    1. $\sqrt{x} -3 = 4$
+    2. $\sqrt{x} = 7$
+    3. $x = 49$
+
+**** Ex:
+    1. $\sqrt{x+2}+1 = 6$
+    2. $\sqrt{x+2} = 5$
+    3. $x+2 = 25$
+    4. $x = 23$
+**** Ex:
+    1. $5\sqrt{2x-1}-12 = 18$
+    2. $5\sqrt{2x-1} = 30$
+    3. $\sqrt{2x-1} = 6$
+    4. $2x-1 = 36$
+    5. $2x = 37$
+    6. $x = \frac{37}{2}$
