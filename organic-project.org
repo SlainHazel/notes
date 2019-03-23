@@ -1,0 +1,10 @@
+* Estradiol
+ - IUPAC Name: estra-1,3,5(10)-triene-3,17β-diol
+ - Arene
+ - Unsaturated
+ - Polar
+ - Soluble in alcohol, 3.90mg/L in water
+
+** Uses
+ - Strongest naturally produced estrogen
+ - Responsible for development of secondary sex characteristics in females, breast growth, feminine fat distribution,

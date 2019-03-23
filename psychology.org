@@ -1,3 +1,6 @@
+#+TITLE: AP Psychology
+#+SETUPFILE: theme-readtheorg.setup
+
 * memory
 ** anterograde amnesia
 Following trauma to the brain (concussion, surgery, or drug induced neural damage) we find we cannot make new memories. New information is just not encoding. We call this anterograde amnesia.
@@ -70,26 +73,27 @@ Atributing to the wrong source an even we have experienced, heard about, read ab
     - Test your own knowledge
     - Rehearse and then determine what you do not yet know
 
-* cognition
+* thinking
+** cognition
 Another term for thinking, knowing, and remembering
 
  - Metacognition: Awareness and understanding one's thinking and cognitive processes
 
-** concepts
+*** concepts
  - A mental grouping of similar objects, events, ideas, or people
  - Superordinate - Animals
  - Basic - Dogs
  - Subordinate - Foxhound
 
-*** schema
+**** schema
 A schema is a set of ideas about something. Our stereotypes come from our schemas.
 
-*** prototypes
+**** prototypes
 A mental image or best (typical) example of a category.
 
 If a new object is similar to our prototype, we are better able to recognize it.
 
-** creativity
+*** creativity
  - Almost impossible to define
  - Little correlation between creativity and intelligence
  - Convergent Thinking versus Divergent Thinking
@@ -99,7 +103,65 @@ If a new object is similar to our prototype, we are better able to recognize it.
 
  - Components: Expertise, imaginative thinking skills, venturesome personality, intrinsic motivation, creative environment
 
-** algorithms
+*** algorithms
  - A rule that guarantees the right solution to a problem
  - Usually by using a formula
  - They work but are sometimes impractical
+* language
+** speech and language
+ - Psycholinguists
+ - Speech - act of speaking, producing sounds which do not have to by meaningful
+ - Language - system of words and the rules for combining those words which does need to be meaningful
+ - 2 basic elements
+   - Symbols - words
+   - Set of rules - grammar
+
+*** phonemes
+ - The smallest units of sound in a language
+ - The sounds the letters make
+ - English has about 44 phonemes
+
+*** morphemes
+ - The smallest unit of language that has meaning
+ - Can be words like *a* or *but*
+ - Can also be parts of words like prefixes or suffixes; ex *-ed* at the end of a word means past tense
+
+*** syntax
+ - The rules for combining words into grammatically sensible sentences.
+ - In English, adjectives come before nouns, but not in Spanish
+
+** language acquisition
+Stages that we learn language:
+
+ 1. Babbling Stage
+ 2. Holophrastic Stage (one word stage)
+ 3. Telegraphic Speech Stage
+
+After the telegraphic stage we get *overgeneralization*
+
+*** cryin, cooing, & babbling stage
+ - During their 2nd month
+
+*** the two word stage
+ - Before the 2nd year, a child starts to speak in two-word sentences. This form of speech is called *telegraphic speech* because the child speaks like a telegram: "Go car," means I world like to go for a ride in the car
+ - Towards the end of the two word stage, children begin to _overregulate_ their speech by applying normal rules of speech to all of their words
+ - For example, they might say "I runned" instead of "I ran"
+* psychological disorders
+** dissociative disorders
+ - Dissociative Amnesia :: sudden onset memory loss usually following a traumatic event.
+   - Cannot recall autobiographical information: event or period of time, identity, life history.
+ - Dissociative Fugue :: sudden onset memory loss accompanied by relocation and the taking on of a new identity.
+ - Depersonalization Disorder :: feeling detached from yourself, your body, and your surroundings
+
+** mood disorders
+*** major depressive disorder
+Occurs when signs of depression last two weeks or more and are not caused by drugs or medical conditions
+
+**** Signs
+ 1. Lethargy and fatigue
+ 2. Feelings of worthlessness
+ 3. Loss of interest in family & friends
+ 4. Loss of interest in activities
+
+*** dysthymic disorder
+Lies between a blue mood and major depressive disorder. It is a disorder characterized by daily depression lasting two years or more

@@ -9,20 +9,33 @@
  4. Check for extraneous solutions
 
 *** Examples
-**** Ex:
+**** Ex 1:
     1. $\sqrt{x} -3 = 4$
     2. $\sqrt{x} = 7$
     3. $x = 49$
 
-**** Ex:
+**** Ex 2:
     1. $\sqrt{x+2}+1 = 6$
     2. $\sqrt{x+2} = 5$
     3. $x+2 = 25$
     4. $x = 23$
-**** Ex:
+**** Ex 3:
     1. $5\sqrt{2x-1}-12 = 18$
     2. $5\sqrt{2x-1} = 30$
     3. $\sqrt{2x-1} = 6$
     4. $2x-1 = 36$
     5. $2x = 37$
     6. $x = \frac{37}{2}$
+
+** solving square root equations (with quadratics)
+**** Ex 1:
+ 1. $\sqrt{3x+4}+2x = 12$
+ 2. $\sqrt{3x+4} = 12 - 2x$
+ 3. $3x+4 = 4x^2 - 48x + 144$
+ 4. $0 = 4x^2 - 51x + 140$
+ 5. Quadratic Formula
+    1. $x = \frac{51 \pm \sqrt{361}}{8}$
+    2. $x = \frac{51 \pm 19}{8}$
+    3. $x = \frac{70}{8}$ or $x = \frac{32}{8}$
+    4. $x = \frac{35}{4}$ or $x = 4$
+ 6.
